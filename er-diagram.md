@@ -72,5 +72,5 @@ erDiagram
     classDef pk fill:#fff9c4,stroke:#fbc02d,stroke-width:1px;
     classDef fk fill:#ffe0b2,stroke:#e65100,stroke-width:1px;
     
-    class USERS,COMPANIES,JOBS,SEARCH_SESSIONS,SAVED_JOBS,SEARCH_HISTORY entity;
+    class USERS,COMPANIES,JOBS,SEARCH_SESSIONS,SAVED_JOBS,SEARCH_HISTORY entity
 ```
