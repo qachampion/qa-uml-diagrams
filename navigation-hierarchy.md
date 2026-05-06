@@ -7,7 +7,7 @@ graph TD
     Root --> L1_Account[User Account]
     
     %% Level 2: Home Branch
-    L1_Home --> L2_SearchBar[Search Bar<br/>(Title/Location)]
+    L1_Home --> L2_SearchBar["Search Bar (Title/Location)"]
     L1_Home --> L2_Recent[Recent Searches]
     L1_Home --> L2_Filters[Quick Filters]
     
