@@ -3,6 +3,7 @@ Welcome to my collection of QA-focused UML diagrams!
 Below you will find a text-based visualization of content in this repository:
 
 qa-uml-diagrams/
+├── README.txt		        (Basic README .txt file)
 ├── er-database-schema.sql      (Database schema)
 ├── er-diagram.md		(Database visual diagram)
 ├── indeed-search-flow.md       (Main UML diagram)
