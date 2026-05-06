@@ -1,10 +1,10 @@
 ```mermaid
 graph TD
-    Root[<b>Indeed Mobile App</b>]
+    Root[Indeed Mobile App]
     
     %% Level 1
-    Root --> L1_Home[<b>Home / Search Hub</b>]
-    Root --> L1_Account[<b>User Account</b>]
+    Root --> L1_Home[Home / Search Hub]
+    Root --> L1_Account[User Account]
     
     %% Level 2: Home Branch
     L1_Home --> L2_SearchBar[Search Bar<br/>(Title/Location)]
@@ -12,13 +12,13 @@ graph TD
     L1_Home --> L2_Filters[Quick Filters]
     
     %% Level 3: Search Results
-    L2_SearchBar --> L3_Results[<b>Search Results List</b>]
+    L2_SearchBar --> L3_Results[Search Results List]
     L3_Results --> L3_Results_Sort[Sort Options]
     L3_Results --> L3_Results_Filter[Advanced Filters]
     L3_Results --> L3_Results_Cards[Job Cards]
     
     %% Level 4: Job Detail
-    L3_Results_Cards --> L4_Detail[<b>Job Detail View</b>]
+    L3_Results_Cards --> L4_Detail[Job Detail View]
     L4_Detail --> L4_Desc[Full Description]
     L4_Detail --> L4_Company[Company Profile]
     L4_Detail --> L4_Action[Apply / Save]
